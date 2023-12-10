@@ -6,5 +6,5 @@ app.use("/api/auth", router);
 
 const PORT = 5000;
 app.listen(PORT, () => {
-  console.log(`server is running at port: ${PORT}`);
+  console.log(`server is running at port: http://localhost:${PORT}/api/auth/`);
 });
